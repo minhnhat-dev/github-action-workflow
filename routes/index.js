@@ -8,7 +8,7 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/ping', (req, res, next) => {
-    res.status(200).send({ message: 'pong !!! !!!' });
+    res.status(200).send({ message: 'pong pong pong !!!' });
 });
 
 module.exports = router;
